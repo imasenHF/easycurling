@@ -2,6 +2,11 @@
 
 A geometry tool for repeating molecular or crystal units and arranging them into rings, tubes, or periodic assemblies. Input and output use XYZ files.
 
+This is a historical tool project. The repository README serves as the project documentation; no separate project page is maintained.
+
+Public author: hyphoon  
+Contact: wuhaifeng@ustc.edu.cn
+
 ## Features
 
 - Rigid transformations and progressive curling.
@@ -13,7 +18,7 @@ The generated coordinates describe a geometric model. Structural suitability sho
 
 ## Run on Windows
 
-Download the [v1.0.0 archive](https://github.com/imasenHF/easycurling/releases/download/v1.0.0/EasyCurling_v1.0.0.7z), extract it, and run the included executable. This option does not require Python.
+Download the current release archive from this repository's Releases page, extract it, and run the included executable. This option does not require Python.
 
 ## Run from source
 
@@ -25,8 +30,6 @@ cd easycurling
 python -m pip install numpy
 python EasyCurling.py
 ```
-
-[Usage instructions and examples in Chinese](http://bbs.keinsci.com/thread-53009-1-1.html)
 
 ## License
 
