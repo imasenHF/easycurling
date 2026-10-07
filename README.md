@@ -35,4 +35,4 @@ python EasyCurling.py
 
 ## License
 
-[MIT License](LICENSE). Retain the copyright notice and license when redistributing the software.
+[MIT License](LICENSE).
