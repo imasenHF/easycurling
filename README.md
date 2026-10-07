@@ -1,8 +1,6 @@
 # EasyCurling
 
-A geometry tool for repeating molecular or crystal units and arranging them into rings, tubes, or periodic assemblies. Input and output use XYZ files.
-
-This is a historical tool project. The repository README serves as the project documentation; no separate project page is maintained.
+EasyCurling is a geometry tool for repeating molecular or crystal units and arranging them into rings, tubes, or periodic assemblies. Input and output use XYZ files.
 
 Public author: hyphoon  
 Contact: wuhaifeng@ustc.edu.cn
