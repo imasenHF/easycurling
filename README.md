@@ -29,6 +29,10 @@ python -m pip install numpy
 python EasyCurling.py
 ```
 
+## 使用说明
+
+- [计算化学公社：EasyCurling 使用说明与示例](http://bbs.keinsci.com/thread-53009-1-1.html)
+
 ## License
 
 [MIT License](LICENSE). Retain the copyright notice and license when redistributing the software.
