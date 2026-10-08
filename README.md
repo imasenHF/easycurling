@@ -18,9 +18,11 @@ The generated coordinates describe a geometric model. Structural suitability sho
 
 Download the current release archive from this repository's Releases page, extract it, and run the included executable. This option does not require Python.
 
-## Run from source
+## Run with the Python launcher (Windows)
 
-The entry point imports NumPy and the local `app` package. Use an environment with NumPy installed:
+The repository contains `EasyCurling.py` and the compiled extension `app.cp312-win_amd64.pyd`. The launcher imports `app.curl` and NumPy; the implementation of `app` is not provided as portable Python source code.
+
+To use the checked-in extension, use 64-bit CPython 3.12 on Windows with NumPy installed:
 
 ```sh
 git clone https://github.com/imasenHF/easycurling.git
@@ -28,6 +30,8 @@ cd easycurling
 python -m pip install numpy
 python EasyCurling.py
 ```
+
+The extension is tied to its Python ABI and Windows architecture; other Python versions and operating systems have not been verified. The Windows release executable above is the recommended option when Python is not installed.
 
 ## 使用说明
 
